@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: -webkit-center;
+}
+
+/*-----------------MENU----------------------*/
+ul#prin a li{
+	list-style: none;
+}
+/*------------------PRIMERO---------------------*/
+div#pri{
+	background-color:#87509c ;
+}
+/*------------------SEGUNDO---------------------*/
+div#seg{
+	background-color:#17c2a4 ;
+}
+/*------------------TERCERO---------------------*/
+div#ter{
+	background-color: #e7f1f8;
+}
+/*------------------CUARTO---------------------*/
+div#cuar{
+	background-color: white;
+}
+/*------------------QUINTO---------------------*/
+div#qui{
+	background-color:#ffdd99 ;
+}
+/*-------------------SEXTO--------------------*/
+div#sex{
+	background-color:#d74680 ;
+}
+/*-------------------SEPTIMO--------------------*/
+div#sep{
+	background-color:#3c5499 ;
+}
+/*---------------------FEET------------------*/

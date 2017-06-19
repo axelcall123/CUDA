@@ -1,0 +1,258 @@
+/*---------------------DEFAULT------------*/
+*{
+	margin: 0;
+	padding: 0;
+	text-align: -webkit-center;
+}
+p.titulo{
+	font-size: 50px;
+	font-weight:600;
+	margin-top:80px;
+}
+p.subtitulo{
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom:55px;
+}
+p.texto{
+	font-size: 24px;
+	font-weight: 300;
+}
+div.hr{
+	width:70px;
+	height:2px;
+	margin:40px 0 40px 0;
+}
+div.boton{
+	padding:25px 0 0 0;
+	width:220px;
+	height: 70px;
+	border-radius:7px;
+}
+p.ocolor{
+	font-size: 15px;
+	font-weight: 500;
+}
+p.titcol3{
+	font-size: 23px;
+	font-weight: 600;
+	margin:10px 0 10px 0;
+}
+p.info{
+	font-size: 21px;
+	font-weight: 500;
+	margin:10px 0 10px 0;
+}
+img.circle{
+	width:150px;
+	height: 150px;
+	border-radius: 100%;
+	margin:20px 0 10px 0;
+}
+/*-----------------MENU----------------------*/
+nav.navbar{
+	background-color: #87509c;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+ul#prin a{
+	text-decoration: none;
+	padding: 5px;
+	transition:all 1s;
+}
+ul#prin a li{
+	padding-top:20px;
+	list-style: none;
+	display: inline-block;
+	color: white;
+	width: 100px;
+	height:50px;
+}
+ul#prin a:hover{
+	background-color: #362b49;
+	border-radius:5px;
+}
+/*------------------PRIMERO---------------------*/
+div#pri{
+	background-color:#87509c ;
+	padding:150px 0 0 0;
+}
+p#titpri{
+	color: white;
+}
+div#pribot{
+	background-color: #eb7d4d;
+	border-bottom:5px solid #c86a43 ;
+	color: white;
+	font-weight: bold;
+	margin:40px 0 100px 0;
+}
+div.sep{
+	padding-bottom: 100px;
+}
+/*------------------SEGUNDO---------------------*/
+div#seg{
+	background-color:#17c2a4 ;
+}
+p#titseg{
+	color: white;
+}
+div#hrseg{
+	background-color: #14a58c;
+}
+p#subseg{
+	color: white;
+}
+p.segt{
+	color: white;
+	margin:15px 0 15px 0;
+}
+p.segco{
+	color: skyblue;
+}
+p.seginf{
+	color: white;
+}
+/*------------------TERCERO---------------------*/
+div#ter{
+	background-color: #e7f1f8;
+}
+p#titter{
+	color: #3c4761;
+}
+p#subter{
+	color: #3c4761;
+}
+div#hrter{
+	background-color: #14a58c;
+}
+p.tertitcol{
+	color: #3c4761;
+}
+div.red{
+	margin:30px 0 30px 0;
+}
+i.ic{
+	padding:10px;
+	color: white;
+	background-color:#95c0ce ;
+	font-size: 20px;
+	border-radius: 100%;
+}
+/*------------------CUARTO---------------------*/
+div#cuar{
+	background-color: white;
+}
+p#titcuar{
+	color:#3c4761 ;
+}
+div#cuarhr{
+	background-color: #dfe8ed;
+}
+p#subcuar{
+	color: #3c4761;
+}
+p.titcuarl{
+	color: #3c4761;
+}
+div.por{
+	width:100px;
+	height: 130px;
+}
+p.por{
+	color: #3c4761;
+	font-weight:500;
+	font-size: 20px;
+	margin:-70px -15px 0 0;
+}
+/*------------------QUINTO---------------------*/
+div#qui{
+	background-color:#ffdd99 ;
+}
+nav#qui ul a{
+	background-color: #ebc985;
+	padding:10px;
+	border-radius:5px;
+	transition: all 0.4s;
+}
+nav#qui ul a li{
+	font-size:20px;
+	list-style: none;
+	display: inline-block;
+	color: #202020;
+}
+nav#qui ul a:hover{
+	background-color: white;
+}
+div#hrqui{
+	background-color: #e5c37f;
+}
+div#botqui{
+	position: inherit;
+	background-color: #17c2a4;
+	border-bottom:5px solid #14a58c;
+	color: white;
+}
+/*-------------------SEXTO--------------------*/
+div#sex{
+	background-color:#d74680 ;
+}
+p#titsex{
+	color: white;
+}
+div#hrsex{
+	background-color: #b73c6d;
+}
+p#subsex{
+	color: white;
+}
+/*-------------------SEPTIMO--------------------*/
+div#sep{
+	background-color:#3c5499 ;
+}
+p#titsep{
+	color: white;
+}
+div#hrsep{
+	background-color: #273a71;
+}
+p#subsep{
+	color: white;
+}
+input{
+	background-color: #273a71;
+	border: solid #273a71;
+}
+input.u ,input.d{
+	width:40%; margin-bottom:50px;
+}
+input.t{
+	width:90%;
+	height: 400px;
+}
+div#botsep{
+	color:white ;
+	margin:60px;
+	background-color: #32bae7;
+	border-bottom: 5px solid #2b9ec5;
+}
+p.ult{
+	color: white;
+}
+p.beg{
+	color: #ffdd99;
+}
+/*---------------------FEET------------------*/
+div#feed{
+	background-color: #344b8e;
+	padding:20px;
+}
+ul#foot a li{
+	color: white;
+	display: inline-block;
+	width:100px;
+}
+ul#foot a li:hover{
+	color: #32bae7;
+}
